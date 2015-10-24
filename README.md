@@ -1,1 +1,2 @@
-# phisch-keyboard-layouts
+# phisch keyboard layouts
+For Ubuntu and Windows
