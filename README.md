@@ -22,4 +22,4 @@
 3.) run **sudo dpkg-reconfigure xkb-data**
 
 ####Windows
-run
+run **/Windows/phisch/setup.exe**
