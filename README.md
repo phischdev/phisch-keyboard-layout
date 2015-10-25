@@ -20,6 +20,7 @@
   ```
   into `<layoutList>...</layoutList>`<p/>
 3.) run **sudo dpkg-reconfigure xkb-data**
-
+<br/>
+<br/>
 ####Windows
 run **/Windows/phisch/setup.exe**
