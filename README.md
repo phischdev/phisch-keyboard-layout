@@ -1,5 +1,5 @@
 ## phisch keyboard layout
-a german keyboard layout for Ubuntu and Windows<br/>
+
 ![alt tag](https://raw.github.com/phischdev/phisch-keyboard-layouts/master/layout.png)
 
 ####Ubuntu
