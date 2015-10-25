@@ -1,10 +1,10 @@
 # phisch keyboard layouts
-For Ubuntu and Windows
-
+For Ubuntu and Windows<br/>
+![alt tag](https://raw.github.com/phischdev/phisch-keyboard-layouts/master/layout.png)
 
 ###Ubuntu
-1.) copy the file _phisch-de_ into /usr/share/X11/xkb/symbols<p/>
-2.) open /usr/share/X11/xkb/rules/evdev.xml and insert
+1.) copy the file _phisch-de_ into **/usr/share/X11/xkb/symbols**<p/>
+2.) open **/usr/share/X11/xkb/rules/evdev.xml** and insert
   ```xml
   <layout>
     <configItem>
@@ -18,8 +18,8 @@ For Ubuntu and Windows
     <variantList/>
   </layout>
   ```
-  into ```<layoutList>...</layoutList>```<p/>
-3.) run _sudo dpkg-reconfigure xkb-data_
+  into `<layoutList>...</layoutList>`<p/>
+3.) run **sudo dpkg-reconfigure xkb-data**
 
 ###Windows
 run
