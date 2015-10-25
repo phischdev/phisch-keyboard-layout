@@ -1,8 +1,8 @@
-# phisch keyboard layouts
+## phisch keyboard layout
 For Ubuntu and Windows<br/>
 ![alt tag](https://raw.github.com/phischdev/phisch-keyboard-layouts/master/layout.png)
 
-###Ubuntu
+####Ubuntu
 1.) copy the file _phisch-de_ into **/usr/share/X11/xkb/symbols**<p/>
 2.) open **/usr/share/X11/xkb/rules/evdev.xml** and insert
   ```xml
@@ -21,5 +21,5 @@ For Ubuntu and Windows<br/>
   into `<layoutList>...</layoutList>`<p/>
 3.) run **sudo dpkg-reconfigure xkb-data**
 
-###Windows
+####Windows
 run
