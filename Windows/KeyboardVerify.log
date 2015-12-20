@@ -1,17 +1,16 @@
+    WARNING: The character ẞ (U+1e9e) exists in the entry for VK_S, ShiftState 'Shift+Ctl+Alt' of the layout table and is not in the default system code page (1252) of the German (Germany) language you specified. This may cause compatibility problems in non-Unicode applications.
     WARNING: / (U+002f) is already defined more than once on the keyboard (on VK_OEM_MINUS, ShiftState 'Base' and VK_7, ShiftState 'Shift').
-    WARNING: # (U+0023) is already defined more than once on the keyboard (on VK_OEM_2, ShiftState 'Ctl+Alt' and VK_OEM_2, ShiftState 'Shift').
+    WARNING: / (U+002f) is already defined more than once on the keyboard (on VK_OEM_MINUS, ShiftState 'Shift' and VK_7, ShiftState 'Shift').
     WARNING: ; (U+003b) is already defined more than once on the keyboard (on VK_OEM_3, ShiftState 'Base' and VK_OEM_COMMA, ShiftState 'Shift').
     WARNING: : (U+003a) is already defined more than once on the keyboard (on VK_OEM_3, ShiftState 'Shift' and VK_OEM_PERIOD, ShiftState 'Shift').
     WARNING: : (U+003a) is already defined more than once on the keyboard (on VK_OEM_3, ShiftState 'Ctl+Alt' and VK_OEM_PERIOD, ShiftState 'Shift').
     WARNING: ( (U+0028) is already defined more than once on the keyboard (on VK_OEM_4, ShiftState 'Base' and VK_8, ShiftState 'Shift').
-    WARNING: \ (U+005c) is already defined more than once on the keyboard (on VK_OEM_4, ShiftState 'Ctl+Alt' and VK_0, ShiftState 'Ctl+Alt').
-    WARNING: The character ẞ (U+1e9e) exists in the entry for VK_OEM_4, ShiftState 'Shift+Ctl+Alt' of the layout table and is not in the default system code page (1252) of the German (Germany) language you specified. This may cause compatibility problems in non-Unicode applications.
     WARNING: ) (U+0029) is already defined more than once on the keyboard (on VK_OEM_6, ShiftState 'Base' and VK_9, ShiftState 'Shift').
-    WARNING: _ (U+005f) is already defined more than once on the keyboard (on VK_OEM_7, ShiftState 'Shift' and VK_OEM_MINUS, ShiftState 'Shift').
     WARNING: = (U+003d) is already defined more than once on the keyboard (on VK_OEM_7, ShiftState 'Ctl+Alt' and VK_0, ShiftState 'Shift').
     WARNING: '<' defined on OEM_102 (Base) but not defined elsewhere. This key may not be present on all keyboards.
     WARNING: '>' defined on OEM_102 (Shift) but not defined elsewhere. This key may not be present on all keyboards.
     WARNING: '|' defined on OEM_102 (Ctl+Alt) but not defined elsewhere. This key may not be present on all keyboards.
+    WARNING: '¦' defined on OEM_102 (Shift+Ctl+Alt) but not defined elsewhere. This key may not be present on all keyboards.
     WARNING: Caps Lock is set between '0' and '=' (VK_0, ShiftStates 'Base' and 'Shift').
     WARNING: Caps Lock is set between '1' and '!' (VK_1, ShiftStates 'Base' and 'Shift').
     WARNING: Caps Lock is set between '2' and '"' (VK_2, ShiftStates 'Base' and 'Shift').
@@ -27,5 +26,4 @@
     WARNING: Caps Lock is set between '.' and ':' (VK_OEM_PERIOD, ShiftStates 'Base' and 'Shift').
     WARNING: Caps Lock is set between '+' and '#' (VK_OEM_2, ShiftStates 'Base' and 'Shift').
     WARNING: Caps Lock is set between ';' and ':' (VK_OEM_3, ShiftStates 'Base' and 'Shift').
-    WARNING: Caps Lock is set between '(' and '?' (VK_OEM_4, ShiftStates 'Base' and 'Shift').
     WARNING: Caps Lock is set between '-' and '_' (VK_OEM_7, ShiftStates 'Base' and 'Shift').
