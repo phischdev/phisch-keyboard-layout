@@ -1,11 +1,13 @@
-default  partial alphanumeric_keys modifier_keys
+default 
 xkb_symbols "basic" {
+
+    include "latin(type4)"
 
     name[Group1]= "German (phisch)";
 
-    key <TLDE> {	[asciicircum, asciitilde, degree]	};
+    key <TLDE> {	[dead_circumflex, asciitilde, degree]	};
     key <AE01> {	[	  1,	exclam 		]	};
-    key <AE02> {	[  2,	quotedbl, apostrophe	]	};
+    key <AE02> {	[     2,	quotedbl, apostrophe, dead_diaeresis]	};
     key <AE03> {	[	  3,	section		]	};
     key <AE04> {	[	  4,	dollar, sterling]	};
     key <AE05> {	[	  5,	percent		]	};
@@ -23,14 +25,14 @@ xkb_symbols "basic" {
     key <AD04> {	[	  r,	R		]	};
     key <AD05> {	[	  t,	T		]	};
     key <AD06> {	[	  z,	Z		]	};
-    key <AD07> {	[	  u,	U, U00FC, U00DC ]	};
+    key <AD07> {	[	  u,	U, udiaeresis, Udiaeresis ]	};
     key <AD08> {	[	  i,	I		]	};
-    key <AD09> {	[	  o,	O, U00F6, U00D6	]	};
+    key <AD09> {	[	  o,	O, odiaeresis, Odiaeresis	]	};
     key <AD10> {	[	  p,	P		]	};
     key <AD11> {	[ bracketleft, Nosign, braceleft]	};
     key <AD12> {	[ bracketright,asterisk, braceright ]	};
 
-    key <AC01> {	[	  a,	A, U00E4, U00C4	]	};
+    key <AC01> {	[	  a,	A, adiaeresis, Adiaeresis	]	};
     key <AC02> {	[	  s,	S, ssharp, U1E9E	]	};
     key <AC03> {	[	  d,	D		]	};
     key <AC04> {	[	  f,	F		]	};
@@ -39,6 +41,7 @@ xkb_symbols "basic" {
     key <AC07> {	[	  j,	J		]	};
     key <AC08> {	[	  k,	K		]	};
     key <AC09> {	[	  l,	L		]	};
+    
     key <AC10> {	[ semicolon,	colon, colon	]	};
     key <AC11> {	[     minus,  underscore, equal	]	};
 
