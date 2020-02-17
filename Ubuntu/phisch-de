@@ -1,7 +1,7 @@
 default  partial alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
-    name[Group1]= "German (DE)";
+    name[Group1]= "German (phisch)";
 
     key <TLDE> {	[asciicircum, asciitilde, degree]	};
     key <AE01> {	[	  1,	exclam 		]	};
@@ -15,7 +15,7 @@ xkb_symbols "basic" {
     key <AE09> {	[	  9,	parenright	]	};
     key <AE10> {	[	  0,    equal, equal	]	};
     key <AE11> {	[ parenleft,	question, backslash]	};
-    key <AE12> {	[parenright, dead_acute, dead_grave]	};
+    key <AE12> {	[parenright, dead_grave, dead_acute]	};
 
     key <AD01> {	[	  q,	Q, at 		]	};
     key <AD02> {	[	  w,	W		]	};
@@ -27,11 +27,11 @@ xkb_symbols "basic" {
     key <AD08> {	[	  i,	I		]	};
     key <AD09> {	[	  o,	O, U00F6, U00D6	]	};
     key <AD10> {	[	  p,	P		]	};
-    key <AD11> {	[ braceleft, Nosign, bracketleft]	};
-    key <AD12> {	[ braceright,asterisk, bracketright]	};
+    key <AD11> {	[ bracketleft, Nosign, braceleft]	};
+    key <AD12> {	[ bracketright,asterisk, braceright ]	};
 
     key <AC01> {	[	  a,	A, U00E4, U00C4	]	};
-    key <AC02> {	[	  s,	S, ssharp	]	};
+    key <AC02> {	[	  s,	S, ssharp, U1E9E	]	};
     key <AC03> {	[	  d,	D		]	};
     key <AC04> {	[	  f,	F		]	};
     key <AC05> {	[	  g,	G		]	};
@@ -53,7 +53,7 @@ xkb_symbols "basic" {
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	underscore	]	};
 
-    key <BKSL> {	[  plus, numbersign, numbersign	]	};
+    key <BKSL> {	[  plus, numbersign, quotedbl, apostrophe	]	};
     include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
