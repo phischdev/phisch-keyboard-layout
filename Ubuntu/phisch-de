@@ -1,7 +1,7 @@
 default 
 xkb_symbols "basic" {
 
-    include "latin(type4)"
+    #include "latin(type4)"
 
     name[Group1]= "German (phisch)";
 
@@ -29,8 +29,8 @@ xkb_symbols "basic" {
     key <AD08> {	[	  i,	I		]	};
     key <AD09> {	[	  o,	O, odiaeresis, Odiaeresis	]	};
     key <AD10> {	[	  p,	P		]	};
-    key <AD11> {	[ bracketleft, Nosign, braceleft]	};
-    key <AD12> {	[ bracketright,asterisk, braceright ]	};
+    key <AD11> {	[ braceleft, Nosign, bracketleft]	};
+    key <AD12> {	[ braceright, asterisk, bracketright ]	};
 
     key <AC01> {	[	  a,	A, adiaeresis, Adiaeresis	]	};
     key <AC02> {	[	  s,	S, ssharp, U1E9E	]	};
